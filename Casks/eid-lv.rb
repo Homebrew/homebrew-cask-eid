@@ -13,6 +13,8 @@ cask 'eid-lv' do
 
   uninstall :pkgutil => [
                          'com.gemalto.classicclient.pkg',
+                         'lv.eparaksts.service.pkg',
+                         'lv.eparaksts.tokensigning.pkg',
 			 'lv.euso.signanywhere.pkg',
 			 'org.latvia-eid.mac'
 			]
