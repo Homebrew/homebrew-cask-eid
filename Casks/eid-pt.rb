@@ -7,7 +7,6 @@ cask 'eid-pt' do
   name 'Electronic identity card software for Portugal'
   name 'eID Portugal'
   homepage 'https://www.cartaodecidadao.pt/'
-  license :gratis
 
   pkg 'Cartao_de_Cidadao.pkg'
 

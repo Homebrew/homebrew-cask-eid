@@ -7,7 +7,6 @@ cask 'eid-lv' do
   name 'Electronic identity card software for Latvia'
   name 'eID Latvia'
   homepage 'https://www.eparaksts.lv'
-  license :gratis
 
   pkg 'eparakstitajs3-distribution.pkg'
 

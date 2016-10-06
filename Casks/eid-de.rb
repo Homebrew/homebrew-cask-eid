@@ -7,7 +7,6 @@ cask 'eid-de' do
   name 'Electronic identity card software for Germany'
   name 'eID Germany'
   homepage 'https://www.ausweisapp.bund.de/startseite/'
-  license :gratis
 
   auto_updates true
 

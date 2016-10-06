@@ -6,7 +6,6 @@ cask 'eid-be' do
   name 'Electronic identity card software of Belgium'
   name 'eID Belgium'
   homepage 'http://eid.belgium.be/'
-  license :oss
 
   pkg 'beidbuild-signed.pkg'
 
