@@ -1,6 +1,6 @@
 cask 'eid-de' do
-  version '1.8.0'
-  sha256 '54c3e259508355cebb2929822aec7f050981959fe466888de47e7cc9992bf336'
+  version '1.10.1'
+  sha256 'fa4ea0686df725a9c770e3fe054bee4b117f2a0376e477d0752a01f0d2273bca'
 
   url "https://www.ausweisapp.bund.de/uploads/tx_ausweisdownloads/AusweisApp2-#{version}.dmg"
   name 'AusweisApp2'
