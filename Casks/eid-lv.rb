@@ -6,7 +6,7 @@ cask 'eid-lv' do
   name 'eParakstītājs'
   name 'Electronic identity card software for Latvia'
   name 'eID Latvia'
-  homepage 'https://www.eparaksts.lv'
+  homepage 'https://www.eparaksts.lv/'
 
   pkg 'eparakstitajs3-distribution.pkg'
 
