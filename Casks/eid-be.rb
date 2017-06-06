@@ -1,8 +1,8 @@
 cask 'eid-be' do
-  version '4.1.19'
-  sha256 '152a11b0e393f2eca8d412313a35cb797b9fff575b469f3892534b1011412000'
+  version '4.2.7'
+  sha256 '488ebe5be3910d8f385c5be65314e6aa634a8b765b65e7670fd2c1b1b51486c1'
 
-  url "https://downloads.services.belgium.be/eid/eID-Quickinstaller-#{version}.dmg"
+  url "https://eid.belgium.be/sites/default/files/software/eid-quickinstaller_#{version}.dmg"
   name 'Electronic identity card software of Belgium'
   name 'eID Belgium Quickinstaller'
   homepage 'http://eid.belgium.be/'
