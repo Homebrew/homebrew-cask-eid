@@ -1,19 +1,11 @@
 cask 'eid-be-viewer' do
-  version '4.1.18'
-  sha256 '0a37868a981adf8de1954f985e9cf1f80b60bfd9297bc713bb518266ad98e4b7'
+  version '4.2.7'
+  sha256 'e9d7ff7028d36fa1a162fec56a8dc2711f03f20b11c5bd5e991b6f79a38bce3d'
 
-  url "https://downloads.services.belgium.be/eid/eidviewer#{version}.dmg"
+  url "https://eid.belgium.be/sites/default/files/software/eid_viewer-#{version}-signed.dmg"
   name 'Electronic identity card software of Belgium (viewer)'
   name 'eID Viewer'
   homepage 'http://eid.belgium.be/'
 
-  depends_on cask: 'eid-be-middleware'
-
-  pkg 'eidviewer-signed.pkg'
-
-  uninstall pkgutil: 'be.eid.viewer.app'
-
-  caveats do
-    depends_on_java
-  end
+  app 'eID Viewer.app'
 end
