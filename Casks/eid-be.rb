@@ -9,10 +9,7 @@ cask 'eid-be' do
 
   pkg 'eID-Quickinstaller-signed.pkg'
 
-  uninstall pkgutil: [
-                       'be.eid.middleware',
-                       'be.eid.viewer.app',
-                     ]
+  uninstall pkgutil: 'be.eid.middleware'
 
   caveats do
     depends_on_java
