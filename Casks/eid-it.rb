@@ -10,14 +10,14 @@ cask 'eid-it' do
   homepage 'http://www.regione.toscana.it/servizi-online/servizi-sicuri/carta-sanitaria-elettronica'
 
   installer script: {
-                      executable: "#{staged_path}/IDProtectClient-6.37.05.app/Contents/MacOS/installbuilder.sh",
+                      executable: "#{staged_path}/IDProtectClient-#{version}.app/Contents/MacOS/installbuilder.sh",
                       args:       ['--unattendedmodeui', 'minimal', '--mode', 'unattended'],
                       sudo:       true,
                     }
 
   uninstall script: {
-                      executable: "/Applications/IDProtectClient-#{version}/uninstall.app/Contents/MacOS/uninstall",
-                      args:       ['osx-intel', '--mode', 'unattended'],
+                      executable: "/Applications/IDProtectClient-#{version}/uninstall.app/Contents/MacOS/installbuilder.sh",
+                      args:       ['--unattendedmodeui', 'minimal', '--mode', 'unattended'],
                       sudo:       true,
                     }
 end
