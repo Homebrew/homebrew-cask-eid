@@ -1,6 +1,6 @@
 cask 'eid-jp-myna' do
-  version '1.0.2'
-  sha256 '07ca31d96628fb7bdae923aba205cc6d7197529d46f1265ff13a31483d609340'
+  version :latest
+  sha256 :no_check
 
   url 'https://img.myna.go.jp/tools/mac/MyNASetup.pkg'
   name 'MynaPortal'
@@ -8,8 +8,8 @@ cask 'eid-jp-myna' do
   name 'eID Japan MyNumber Client'
   homepage 'https://myna.go.jp/'
 
-  depends_on cask:  'eid-jp',
-             macos: '>= :mavericks'
+  depends_on cask:  'eid-jp'
+  depends_on macos: '>= :yosemite'
 
   pkg 'MyNASetup.pkg'
 
