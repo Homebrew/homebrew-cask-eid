@@ -12,6 +12,7 @@ cask 'eid-ee' do
   uninstall script: {
                       executable: 'uninstall.sh',
                       input:      ['y'],
+                      sudo:       true,
                     }
 
   caveats <<~EOS
