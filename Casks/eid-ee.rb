@@ -17,6 +17,6 @@ cask 'eid-ee' do
 
   caveats <<~EOS
     DigiDoc3 Client and ID-card Utility are available in the App Store:
-      http://appstore.com/mac/ria
+      https://appstore.com/mac/ria
   EOS
 end
