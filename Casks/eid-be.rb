@@ -7,7 +7,7 @@ cask 'eid-be' do
   name 'eID Belgium Quickinstaller'
   homepage 'http://eid.belgium.be/'
 
-  pkg 'eID-Quickinstaller-signed.pkg'
+  pkg 'eID-Quickinstaller.pkg'
 
   uninstall pkgutil: 'be.eid.middleware'
 
