@@ -1,6 +1,6 @@
 cask 'eid-jp' do
-  version '03-00'
-  sha256 '41a04566520b3a63b95b39fcce4faee212d84b1509178feda39578e753a17179'
+  version '03-02'
+  sha256 '7ba32c8fa09aa818d9214fd163382c2f6121b60078b2d10283463c6fcfc2b368'
 
   url "https://www.jpki.go.jp/client/download/101/JPKI#{version}.dmg"
   name 'jpki'
