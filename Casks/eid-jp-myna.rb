@@ -17,6 +17,6 @@ cask 'eid-jp-myna' do
             delete:  '/private/etc/MyNA'
 
   caveats do
-    depends_on_java('8+')
+    depends_on_java '8+'
   end
 end
