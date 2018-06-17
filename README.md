@@ -1,4 +1,4 @@
-# homebrew-eid
+# homebrew-cask-eid
 Casks of electronic identity card software of various countries ([why](https://github.com/Homebrew/homebrew-cask/issues/8033)).
 
 # Usage
