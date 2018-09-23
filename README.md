@@ -3,7 +3,7 @@ Casks of electronic identity card software of various countries ([why](https://g
 
 # Usage
 
-After you install homebrew-cask, run the following command:
+After you install Homebrew, run the following command:
 
 ```sh
 $ brew tap homebrew/cask-eid
