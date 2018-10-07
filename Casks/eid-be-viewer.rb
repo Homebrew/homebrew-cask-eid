@@ -5,7 +5,7 @@ cask 'eid-be-viewer' do
   url "https://eid.belgium.be/sites/default/files/software/eid_viewer-#{version}.dmg"
   name 'Electronic identity card software of Belgium (viewer)'
   name 'eID Viewer'
-  homepage 'http://eid.belgium.be/'
+  homepage 'https://eid.belgium.be/'
 
   app 'eID Viewer.app'
 end
