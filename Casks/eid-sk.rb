@@ -3,11 +3,12 @@ cask 'eid-sk' do
   sha256 :no_check
 
   # eidas.minv.sk/TCTokenService/download was verified as official when first introduced to the cask
-  url 'https://eidas.minv.sk/TCTokenService/download/mac/eIDklient.dmg'
+  url 'https://eidas.minv.sk/TCTokenService/download/mac/Aplikacia_pre_eID.dmg'
+  name 'Aplikacia pre eID'
   name 'eID Klient'
   name 'Electronic identity card software for Slovakia'
   name 'eID Slovakia'
   homepage 'https://www.slovensko.sk/sk/titulna-stranka'
 
-  app 'eIDklient.app'
+  app 'Aplikacia_pre_eID.app'
 end
