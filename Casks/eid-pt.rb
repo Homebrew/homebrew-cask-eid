@@ -8,12 +8,14 @@ cask 'eid-pt' do
   name 'eID Portugal'
   homepage 'https://www.autenticacao.gov.pt/'
 
-  pkg 'Assinatura Digital (MACOS 3.0.13.5530).pkg'
+  container type: :pkg
+
+  pkg "Assinatura Digital (MACOS #{version}).pkg"
 
   uninstall pkgutil: 'pt.cartaodecidadao.*',
             script:  {
-                        executable: '/usr/local/bin/pteid_uninstall.sh',
-                        sudo:       true,
+                       executable: '/usr/local/bin/pteid_uninstall.sh',
+                       sudo:       true,
                      },
             quit:    'pt.gov.autenticacao'
 end
