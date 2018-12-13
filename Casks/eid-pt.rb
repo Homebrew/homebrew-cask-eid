@@ -12,8 +12,8 @@ cask 'eid-pt' do
 
   uninstall pkgutil: 'pt.cartaodecidadao.*',
             script:  {
-                       executable: '/usr/local/bin/pteid_uninstall.sh',
-                       sudo: true
+                        executable: '/usr/local/bin/pteid_uninstall.sh',
+                        sudo:       true,
                      },
             quit:    'pt.gov.autenticacao'
 end
