@@ -1,14 +1,14 @@
 cask 'eid-pt' do
-  version '2.4.6'
-  sha256 '0f07c26ba9561eca278d8ce20ea6be778be3323602f5c6d4671024910c3aa70c'
+  version '3.0.13.5530'
+  sha256 '01d7c9b8f0e279b2e3e64122374034302ee1a2919f7d01da73958f02fbdde90f'
 
-  url 'https://www.autenticacao.gov.pt/documents/10179/11955/pteid-mw.pkg'
+  url "https://www.autenticacao.gov.pt/documents/10179/11955/Assinatura+Digital+%28MACOS+#{version}%29/9717429b-41c2-404b-ad5b-7c0358ca3bef"
   name 'Cartão de Cidadão'
   name 'Electronic identity card software for Portugal'
   name 'eID Portugal'
   homepage 'https://www.autenticacao.gov.pt/'
 
-  pkg 'pteid-mw.pkg'
+  pkg 'Assinatura Digital (MACOS 3.0.13.5530).pkg'
 
   uninstall pkgutil: 'pt.cartaodecidadao*',
             signal:  [
