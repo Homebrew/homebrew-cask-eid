@@ -10,14 +10,10 @@ cask 'eid-pt' do
 
   pkg 'Assinatura Digital (MACOS 3.0.13.5530).pkg'
 
-  uninstall pkgutil: 'pt.cartaodecidadao*',
+  uninstall pkgutil: 'pt.cartaodecidadao.*',
             script:  {
                        executable: '/usr/local/bin/pteid_uninstall.sh',
                        sudo: true
                      },
-            signal:  [
-                       ['TERM', 'com.yourcompany.pteidgui'],
-                       ['TERM', 'com.yourcompany.pteiddialogsQTsrv'],
-                       ['TERM', 'pt.cartaodecidadao.dss'],
-                     ]
+            quit:    'pt.gov.autenticacao'
 end
