@@ -22,5 +22,6 @@ cask 'eid-ee' do
   
     You can also install with Mac App Store command-line interface (https://formulae.brew.sh/formula/mas):
       $ mas install 1370791134 # qdigidoc4
+      $ mas install 556524918 # qesteidutil
   EOS
 end
