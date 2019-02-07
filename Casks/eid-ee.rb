@@ -19,5 +19,8 @@ cask 'eid-ee' do
   caveats <<~EOS
     DigiDoc4 Client and ID-card Utility are available in the App Store:
       https://appstore.com/mac/ria
+  
+    You can also install with Mac App Store command-line interface (https://formulae.brew.sh/formula/mas):
+      $ mas install 1370791134 # qdigidoc4
   EOS
 end
