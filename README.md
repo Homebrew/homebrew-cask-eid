@@ -1,19 +1,5 @@
-# homebrew-cask-eid
-Casks of electronic identity card software of various countries ([why](https://github.com/Homebrew/homebrew-cask/issues/8033)).
+# Homebrew/cask-eid
 
-# Usage
+These were casks for electronic identity card software of various countries.
 
-After you install Homebrew, run the following command:
-
-```sh
-$ brew tap homebrew/cask-eid
-```
-
-You can now install the casks in this repo.
-
-```sh
-$ brew cask install eid-pt
-```
-
-## License
-[The Unlicense](http://unlicense.org/)
+All casks were either migrated to [Homebrew/homebrew-cask](https://github.com/Homebrew/homebrew-cask) or deleted.
